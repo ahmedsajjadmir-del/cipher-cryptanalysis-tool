@@ -1,5 +1,5 @@
 # cipher-cryptanalysis-tool
-A program resposible for cryptoanalysis , and usage of different ciphers .
+A program responsible for cryptanalysis , and usage of different ciphers .
 
 # CipherLens: Interactive Text Cipher & Cryptanalysis Tool
 
