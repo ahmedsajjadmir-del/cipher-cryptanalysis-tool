@@ -49,7 +49,7 @@ and performs cryptanalysis (frequency analysis and automatic cipher cracking).
 
 ```bash
 # Clone the repository
-git clone https://github.com/<leader-username>/cipher-cryptanalysis-tool.git
+git clone https://github.com/<ahmedsajjadmir-del>/cipher-cryptanalysis-tool.git
 cd cipher-cryptanalysis-tool
 
 # Compile
