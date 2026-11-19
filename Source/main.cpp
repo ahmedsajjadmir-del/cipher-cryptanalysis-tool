@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Ciphers.h"
+#include "Analysis.h"
 using namespace std;
 
 int main()
@@ -13,6 +14,12 @@ int main()
 
     caesarDecrypt(message, 3);
     cout << "Decrypted: " << message << endl;
+
+    FreqReport report;
+    countFrequencies(message, &report);
+    cout << "\nLetter frequencies:" << endl;
+    printHistogram(&report);
+    cout << "Most common letter: " << report.mostCommon << endl;
 
     return 0;
 }

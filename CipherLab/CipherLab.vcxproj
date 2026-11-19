@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Source\Analysis.cpp" />
     <ClCompile Include="..\Source\Ciphers.cpp" />
     <ClCompile Include="..\Source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\Ciphers.h" />
+    <ClInclude Include="..\Source\Analysis.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
