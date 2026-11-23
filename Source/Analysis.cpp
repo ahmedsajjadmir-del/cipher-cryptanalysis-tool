@@ -55,4 +55,3 @@ int crackCaesar(const char* cipherText, char* bestPlain)
     copyText(cipherText, bestPlain);
     caesarDecrypt(bestPlain, bestShift);
     return bestShift;
-}
