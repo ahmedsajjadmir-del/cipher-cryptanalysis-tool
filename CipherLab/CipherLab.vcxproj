@@ -26,6 +26,7 @@
   <ItemGroup>
     <ClInclude Include="..\Source\Ciphers.h" />
     <ClInclude Include="..\Source\Analysis.h" />
+    <ClInclude Include="..\Source\FileIO.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
